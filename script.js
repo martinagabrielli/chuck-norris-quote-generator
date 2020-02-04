@@ -1,7 +1,7 @@
-let quoteDiv = document.getElementById('quote');
-let quoteButton = document.getElementById('get-quote');
+let factDiv = document.getElementById('fact');
+let factButton = document.getElementById('get-fact');
 
-function getQuote() {
+function getFact() {
     var xmlhttp = new XMLHttpRequest();
     var url = "https://api.chucknorris.io/jokes/random";
     xmlhttp.onreadystatechange = function() {
@@ -17,9 +17,9 @@ function getQuote() {
 
 function parseJson(json) {
     var fact = "<b>" + json["value"] + "</b>";
-    quoteDiv.innerHTML = fact;
+    factDiv.innerHTML = fact;
 }
 
-quoteButton.addEventListener('click', getQuote);
+factButton.addEventListener('click', getFact);
 
-getQuote();
+getFact();

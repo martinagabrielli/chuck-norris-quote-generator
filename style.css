@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+* body .container {
+  background: #F2C1B6;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body .container .wrap {
+  -webkit-box-shadow: 5px 5px 20px #000;
+          box-shadow: 5px 5px 20px #000;
+  border-radius: 10px;
+  background: #BF6550;
+  width: 70%;
+  height: 800px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+* body .container #fact {
+  background: #6d0e06a3;
+  color: #e8c9c9;
+  -webkit-box-shadow: 5px 5px 10px #000;
+          box-shadow: 5px 5px 10px #000;
+  border-radius: 10px;
+  width: 500px;
+  min-height: 200px;
+  padding: 5px;
+}
+
+* body .container #fact b {
+  display: block;
+  padding: 30px;
+}
+
+* body .container img {
+  width: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px #000;
+          box-shadow: 5px 5px 10px #000;
+}
+
+* body .container #get-fact {
+  background: #F2F1F0;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px #000;
+          box-shadow: 5px 5px 10px #000;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
